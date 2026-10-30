@@ -1,0 +1,34 @@
+# Credentials and secrets
+.env
+.env.*
+*.key
+*.pem
+*token*
+*secret*
+id_*
+
+# Environment & Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Build outputs & Temp
+dist/
+build/
+.cache/
+*.tmp
+*.log
+
+# Binaries & Media
+*.pdf
+*.zip
+*.tar.gz
+*.tar
+*.iso
+
+# OS & Editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
