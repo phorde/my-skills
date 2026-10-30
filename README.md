@@ -13,7 +13,6 @@ Shared across all AI agent harnesses on this machine (Antigravity, OpenCode, Cla
 | **`spec-driven-tdd`** | Architecture & Process | Autonomous SDD + TDD engine. Evidence-based stack selection, parametric modeling (anti-hardcoding), single `PRD.md`, and run-to-completion Red-Green-Refactor loop. |
 | **`ui-primitive-composition`** | Frontend Engineering | Enforces design-system-first component assembly. Prioritizes shadcn/ui, Radix primitives, Lucide icons, and semantic Tailwind tokens. Forbids reinventing UI primitives. |
 | **`systematic-debugging`** | Diagnostics & Quality | 4-phase scientific root-cause investigation. The Iron Law: *No fixes without root cause investigation first*. Eliminates guesswork and symptom patches. |
-| **`clinical-safety-guard`** | Health-Tech & Domain | Enforces clinical assertion stratification (`EXPLICIT_FINDING`, `EXPANDED_NORMAL`, `INFERRED_DIFFERENTIAL`, `FORBIDDEN_FABRICATION`), LGPD/CFM data privacy, and emergency red flags. |
 | **`database-migrations`** | Data & Backend | Safe, zero-downtime schema evolution: expand-and-contract, concurrent indexing, batched data backfills, and idempotent DDL across Postgres, SQLite, Prisma, Drizzle, and Go. |
 | **`deep-modules`** | Software Architecture | John Ousterhout's *Philosophy of Software Design*: simple interfaces hiding complex implementations. Forbids shallow pass-through abstractions, file splattering, and classitis. |
 | **`security-audit`** | Security & Compliance | Threat-modeling and code auditing for vulnerabilities, injection vectors, authorization bypass, tenant exposure, privilege escalation, and unsafe execution. |
@@ -41,7 +40,6 @@ Flat structure: one directory per skill containing `SKILL.md` (and any associate
 my-skills/
 ├── agent-browser/
 ├── ai-estimates/
-├── clinical-safety-guard/
 ├── clonedeps/
 ├── codemap/
 │   └── scripts/
